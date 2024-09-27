@@ -129,5 +129,10 @@
   <ItemGroup>
     <None Include="Resources\logo Lab 3 sin fondo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
